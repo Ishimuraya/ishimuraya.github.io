@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Basic declaration of responsive design-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="scripts.js"></script>
+        <title>My Webpage</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark selectDisable">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="photo.html">Photo</a>
+                        <a class="nav-link" href="guide.html">Guide</a>
+                        <a class="nav-link" href="colour.html">Change Colour!</a>
+                    </div>
+                </div> 
+            </div>
+        </nav>
+    
+        <header class="index-header">
+            <h1 id="greeting">Welcome to my first Webpage!</h1>
+        </header>
+
+        <article class="container">
+            <p>Greeting! My name is David, a completely beginner of web deleveopment.<br>
+                This is my first webpage and I hope you can tolerant things in here are too simple with bad design.</p>
+
+            <h3>Why I enrolled CS50?</h3>
+
+            <p>Let me first introduce myself. A decade ago when I was studying History in university,
+                Computer Science is a very very strange and sophisticated things for me.
+                I believed that I would never learn how to code or anything about computer in my life. </p>
+
+            <p>But this thought was changed after some people told me there is an online course which called "CS50" is very interesting and suitable for beginner.
+                In the course the professor, David J.Malon, teach people who are not studing in Computer Science or have never taken any course about computer can also learn how to code at the end.</p>
+
+            <p>So I started my journey, week by week, step by step, struggling from the most basic pyramid question in C,
+                to have completely no idea with what is happening on pointer, and finally, me, who finished 8 problem sets,
+                am here and once again stuggling in reading and writing some more cryptic codes of making a RWD webpage with bootstrap.</p>
+
+            <h3>Why I almost gave up and how did I overcome?</h3>
+
+            <p>To be honest, I almost gave up during solving some problems.<br>
+                Everytime when I compare myself to others who answer my question, I think I am not the one who can handle coding.<br>
+                But at that moment, when I revisited <a href="https://youtu.be/YoXxevp1WRQ?t=230">week 0 of CS50 on youtube</a>:</p>
+
+                <blockquote cite="https://youtu.be/YoXxevp1WRQ?t=230">
+                    "what ultimately matters in this course is not so much where<br>
+                    you end up relative to your classmates but where<br>
+                    you end up relative to yourself when you began"
+                </blockquote>
+            <p>Yes, each person has their own starting point. Someone may learn faster than you, someone may have more experience than you.
+                What I have to do is just take my time, and not to compare myself to any other so that I can keep my enthusiasm in learning new thing!</p>
+
+            <p>And here I have to give a special thanks to Brian Yu and Doug Lloyd!</p>
+            <p>For Brain, each week he gives us a very clear instruction to solve each problem set. It is very important for a beginner who have never code before to learn how to splite big problem to some small pieces, putting them all together, and finally complete every challenge.</p>
+            <p>For Doug, his short vedios really help me a lot! Because the lecture can't cover all we have to learn to solve problems (like syntax of Python, or a deeper introduction of pointer in C), those shorts helped me a lot to understand more about new knowledge teached each week.</p>
+            <p>Thank you for all CS50 staffs' dedication and enthusiasm!</p>
+
+            <h3>What are my targets?</h3>
+
+            <p>In the future, I hope I can:</p>
+                <ol>
+                    <li>Finish CS50x!</li>
+                    <li>Finish CS50w!!</li>
+                    <li>Land a frontend developer job!!!</li>
+                </ol>
+            <p>Sounds like impossible right?
+            Don't forget there are tons of things I need to learn to switch my career to web development. That's included but not limited to:</p>
+                <ul>
+                    <li>Solided HTML, CSS, Javascript knowledge</li>
+                    <li>Bootstrap</li>
+                    <li>SASS</li>
+                    <li>npm/yarn</li>
+                    <li>React.js</li>
+                    <li>Git</li>
+                    <li>......</li>
+                </ul>
+            <p>It is obviously a long journey and it will never ended! </p>
+
+            <p>Although I can only have few hours after getting off from work each day,
+                I believe that once I keep my enthusiasm and consistently in learning,
+                I can reach my goal in nearly future.
+            </p>
+        </article>
+        <footer>
+            <span><button type="button" class="btn btn-light" id="changeName">Change User Name</button></span>
+            <span class=version>ver1.0</span>
+        </footer>
+    </body>
+</html>

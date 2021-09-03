@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Basic declaration of responsive design-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="colour.js"></script>
+        <title>My Webpage</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark selectDisable">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Change Colour!</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="photo.html">Photo</a>
+                        <a class="nav-link" href="guide.html">Guide</a>
+                        <a class="nav-link" href="colour.html">Change Colour!</a>
+                    </div>
+                </div> 
+            </div>
+        </nav>
+
+        <header class="colour-header">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id ="backgroundInput" placeholder="Background: eg. '#0099FF' or 'gray'">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button" id="backgroundButton">Change</button>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id ="headingInput" placeholder="Heading: eg. '#0099FF' or 'gray'">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button" id="headingButton">Change</button>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id ="paragraphInput" placeholder="Paragraph: eg. '#0099FF' or 'gray'">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button" id="paragraphButton">Change</button>
+                </div>
+            </div>
+        </header>
+
+        <article class="container">
+            <div class="text-test"><h3>Lorem Ipsum</h3></div>
+            <div class="text-test">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                Duis viverra mi semper, dapibus erat sit amet, fringilla turpis. Suspendisse fermentum bibendum justo a euismod. Nullam ac erat nec neque dictum congue. Proin ornare eu augue sit amet finibus. Ut nisl dolor, gravida sit amet hendrerit id, rhoncus nec lectus. Sed dolor mauris, sodales nec ex vel, vehicula tristique sem. Cras ut tempus arcu. Nullam in ipsum non tortor cursus laoreet. Sed porta pulvinar nunc, et accumsan tellus semper euismod. Etiam quis lobortis felis. Curabitur lacinia tellus ullamcorper accumsan venenatis. Duis et rhoncus ligula. Proin ac arcu scelerisque, ultricies velit sed, posuere magna. Praesent hendrerit egestas felis, mattis bibendum mauris volutpat non. Etiam dictum neque ac elit pharetra molestie. Proin volutpat blandit convallis.<br><br>
+                Nunc fermentum ligula non nulla blandit, a efficitur enim porttitor. Vestibulum condimentum molestie dui vestibulum dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis justo nulla, eu volutpat sem aliquam sed. Quisque in tempus urna. Nam sit amet venenatis metus. Pellentesque eu euismod neque. Cras convallis sapien ut augue egestas interdum. Nulla facilisi.<br><br>
+                Donec ligula lacus, efficitur ut tortor non, cursus ultricies tellus. Curabitur consectetur dui ex, quis sodales felis vulputate nec. Fusce at iaculis felis. Integer ut magna in lacus eleifend lacinia. Nullam elit augue, accumsan non posuere sit amet, placerat dictum velit. Donec neque nibh, pretium vel egestas eget, congue quis elit. Fusce elementum sollicitudin ligula, non rhoncus felis efficitur sit amet. Fusce rhoncus neque felis, nec commodo tellus finibus ac. Integer consectetur ipsum eros, et fringilla justo pretium ut. Suspendisse at volutpat dolor. Nulla eget pretium risus.<br><br>
+                Donec tristique pellentesque nisi, eget condimentum nulla faucibus at. Ut ut diam viverra, pharetra ligula et, bibendum sem. Donec molestie dictum pulvinar. Nullam pharetra viverra hendrerit. Duis eu molestie massa, sed consequat lectus. Nam at sagittis sem. Nulla ultricies blandit erat eget sagittis. Quisque mollis et magna ac dignissim. Sed nisl nisl, sodales vitae urna eget, ultrices posuere ipsum.</p>
+            </div>
+        </article>
+        <footer>
+            <span class=non-index-version>ver1.0</span>
+        </footer>
+    </body>
+</html>

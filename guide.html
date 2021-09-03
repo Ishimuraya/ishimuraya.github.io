@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Basic declaration of responsive design-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark selectDisable">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Guide</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="photo.html">Photo</a>
+                        <a class="nav-link" href="guide.html">Guide</a>
+                        <a class="nav-link" href="colour.html">Change Colour!</a>
+                    </div>
+                </div> 
+            </div>
+        </nav>
+
+        <article class="container">
+            <h3 style="padding-top:10px">What is "Change Colour!"?</h3>
+            <p>Sometimes when you are designing how to present your content on webpage, you may have to choose which kind of colour of text and background that you should use. But it may not be that convenience to code it yourself. </p>
+            <p>So I wrote a simple javascript program called "Change Colour!" to help you to test how the webpage will look like instantly!</p>
+
+            <h3>How it works?</h3>
+            <p>You can change the background, heading, and paragraph colour by clicking on "Change" button after you input RGB value, such as #555555 for gray, or you can use a valid property of CSS to change colour . <br>
+                Don't forget to start with "#" if you would like to use hexadecimal to represent the colour.</p>
+            <p>Please check <a href="https://www.w3.org/wiki/CSS/Properties/color/keywords">CSS Colours List</a> for more detail about CSS colour keywords.</p>
+
+
+            <h3>What is colour theory?</h3>
+            <p>Here is the description at <a href="https://en.wikipedia.org/wiki/Color_theory">Wikipedia</a>:</p>
+            <p><i>"In the visual arts, color theory is a body of practical guidance to color mixing and the visual effects of a specific color combination. There are also definitions (or categories) of colors based on hues of the color wheel: primary color, secondary color, and tertiary color."</i></p>
+            <p>How to choose colour is a huge topic. What may be most important for now is concerning about <a href="https://en.wikipedia.org/wiki/Complementary_colors">complementary colours</a>.</p>
+
+            <p>This is an example of using bad choose of colour, creating worst user experience:</p>
+            <a href="images/bad.jpg"><img src="images/bad.jpg" class="img-thumbnail" alt="black background colour with blue text"></a>
+            <p>It is very hard for human to see any content in the page right? Now let's see how to make it better:</p>
+            <a href="images/better.jpg"><img src="images/better.jpg" class="img-thumbnail" alt="gray background colour with white text"></a>
+            <p>First of all, I set the background colour to #333333, which is a colour between black(#000000) and gray(#55555), to make it feels like a "dark mode"(sort of protecting human eyes).</p>
+            <p>Then, both colour of heading and text are set to white, giving a stronger contrast to show all content in the body of the page. Thus user can be more focusing on the content.</p>
+            <p>The reason of why not choosing black as background colour is because it will create a strongest contrast between black and white. This may let user feel words in the page are too bright.</p>
+
+            <p>It is not that easy to design your webpage if it contain image or video or animation. But first let's try out how to <a href="colour.html">choose right colour of background and words!</a></p>
+        </article>
+        <footer>
+            <span class=non-index-version>ver1.0</span>
+        </footer>
+    </body>
+</html>
